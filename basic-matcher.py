@@ -1,4 +1,4 @@
-class Range:
+class Slider:
     """
     Takes the integer values between between 1 and 5 
     
@@ -9,7 +9,17 @@ class Range:
         self.value= min(abs(value),5)
         
 
+class Range:
+    """
+    for a numerical range, for indicating the start and end time of somthing for example
+    
+    """
 
+    def __init__(self,r):
+        self.range=r
+
+    def rangeOverlap(self):
+        pass
 
 class Id:
     """
